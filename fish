@@ -1,1 +1,0 @@
-/home/yamato/.config/fish/
