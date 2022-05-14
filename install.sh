@@ -11,3 +11,5 @@ ln -snfv $DIR/i3blocks ~/.config/i3blocks
 
 rm -rf ~/.config/fish
 ln -snfv $DIR/fish ~/.config/fish
+
+ln -snfv $DIR/vimrc ~/.vimrc
