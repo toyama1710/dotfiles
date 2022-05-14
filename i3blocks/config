@@ -1,0 +1,28 @@
+[battery]
+command=~/.config/i3blocks/battery2
+markup=pango
+interval=5
+
+[lan]
+label=
+command=~/.config/i3blocks/iface
+interval=5
+
+[cpu]
+label=CPU 
+command=echo $(mpstat 1 1 | tail -1 | awk '{printf "%5.2f %", $3}')
+interval=1
+
+[ram]
+label=RAM 
+command=free -h | awk 'match($0, /^Mem/){print  $3 " / " $2}'
+interval=1
+
+[rom]
+label=ROM 
+command=df -h | awk 'match($0, /\/$/){print $3 " / " $2}'
+interval=30
+
+[date]
+command=date '+%a %h %-d %H:%M:%S'
+interval=1
