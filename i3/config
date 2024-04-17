@@ -44,6 +44,9 @@ floating_modifier $mod
 # start a terminal
 bindsym $mod+Return exec tilix
 
+# toggle touchpad enable/disable
+bindsym $mod+t exec ~/.config/i3/toggle-touchpad.sh
+
 # kill focused window
 bindsym $mod+q kill
 
