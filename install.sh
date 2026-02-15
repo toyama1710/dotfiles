@@ -9,3 +9,7 @@ rm -rf ~/.config/i3blocks
 ln -snfv $DIR/i3blocks ~/.config/i3blocks
 
 ln -snfv $DIR/vimrc ~/.vimrc
+
+rm .zshenv
+ln -snfv $DIR/zsh/.zshenv ~/.zshenv
+ln -snfv $DIR/zsh/ ~/.zsh
