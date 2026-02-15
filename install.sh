@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 DIR=$PWD
-dconf load /com/gexperts/Tilix/ < tilix.conf
 
 rm -rf ~/.config/i3
 ln -snfv $DIR/i3 ~/.config/i3
