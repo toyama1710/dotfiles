@@ -13,3 +13,5 @@ ln -snfv $DIR/vimrc ~/.vimrc
 rm .zshenv
 ln -snfv $DIR/zsh/.zshenv ~/.zshenv
 ln -snfv $DIR/zsh/ ~/.zsh
+
+ln -snfv $DIR/starship.toml ~/.config/starship.toml
